@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Ameena Khan — AI Developer portfolio focused on LLMs, RAG, Urdu NLP, Edge AI and AI Safety." />
+  <meta name="theme-color" content="#05080d" />
+  <title>Ameena Khan | AI Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true"><div class="loader-mark"><span>AK</span><i></i></div></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="noise"></div>
+  <div class="grid-bg"></div>
+
+  <header id="topbar">
+    <a class="brand magnetic" href="#home" aria-label="Ameena Khan home"><span>AK</span><strong>Ameena Khan</strong></a>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="paletteBtn" class="icon-btn" aria-label="Open command menu" title="Command menu">⌘</button>
+      <button id="theme" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">◐</button>
+      <button id="menu" class="icon-btn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <aside class="social-rail" aria-label="Social links">
+    <a href="https://github.com/AmeenaKhan12" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+    <a href="https://www.linkedin.com/in/ameena-khan-1736171a4" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+    <i></i>
+  </aside>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy reveal">
+        <div class="status-line"><span class="status-dot"></span> Available for AI engineering & research collaboration</div>
+        <div class="eyebrow">AI DEVELOPER · ISLAMABAD, PAKISTAN</div>
+        <h1>I build AI systems that move from <span class="accent">research</span> to <span class="outline">deployment.</span></h1>
+        <p class="hero-sub">LLMs, RAG, Urdu model adaptation, edge deployment and AI safety — engineered into private, multilingual and practical AI experiences.</p>
+        <div class="type-row">Currently focused on <span id="typeText">secure agentic AI</span><span class="caret">|</span></div>
+        <div class="actions">
+          <a class="btn primary magnetic" href="#projects">Explore projects <span>↗</span></a>
+          <a class="btn magnetic" href="Ameena_Khan_CV.pdf" target="_blank" rel="noopener">View résumé</a>
+          <a class="btn ghost magnetic" href="https://github.com/AmeenaKhan12" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+        <div class="metrics" id="metrics">
+          <div><b data-count="5" data-suffix="+">0</b><small>Major AI initiatives</small></div>
+          <div><b data-count="94" data-suffix="%">0</b><small>Deepfake framework accuracy</small></div>
+          <div><b data-count="3" data-suffix="">0</b><small>AI research directions</small></div>
+        </div>
+      </div>
+
+      <div class="hero-console reveal" data-tilt>
+        <div class="console-top"><span></span><span></span><span></span><small>ameena@ai-lab:~</small></div>
+        <div class="console-body">
+          <div class="console-kicker">// AI SYSTEM PROFILE</div>
+          <div class="code-line"><em>01</em><span><i>role</i> = <strong>"AI Developer"</strong></span></div>
+          <div class="code-line"><em>02</em><span><i>focus</i> = [<strong>"LLMs"</strong>, <strong>"RAG"</strong>, <strong>"Urdu NLP"</strong>]</span></div>
+          <div class="code-line"><em>03</em><span><i>deploy</i> = [<strong>"Local AI"</strong>, <strong>"Jetson"</strong>, <strong>"Docker"</strong>]</span></div>
+          <div class="code-line"><em>04</em><span><i>research</i> = <strong>"Agentic AI Safety"</strong></span></div>
+          <div class="console-divider"></div>
+          <div class="system-map">
+            <div class="map-node core-node">AK</div>
+            <div class="map-node n1">RAG</div><div class="map-node n2">LLM</div><div class="map-node n3">NLP</div><div class="map-node n4">EDGE</div><div class="map-node n5">SAFETY</div>
+            <svg viewBox="0 0 360 220" aria-hidden="true"><path d="M180 110 L70 42 M180 110 L290 42 M180 110 L44 160 M180 110 L316 160 M180 110 L180 202" /></svg>
+          </div>
+          <div class="console-footer"><span class="pulse"></span> system.ready()</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about"><span>SCROLL</span><i>↓</i></a>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-index">01</div>
+      <div class="kicker">PROFILE</div>
+      <div class="split">
+        <div class="sticky-title"><h2>AI engineering across the <span>full system stack.</span></h2></div>
+        <div>
+          <p class="lead">I develop intelligent systems across NLP, LLM applications, Retrieval-Augmented Generation, model adaptation, OCR-driven document intelligence, databases and edge deployment.</p>
+          <p class="body-copy">My work centers on building systems that are not only capable, but deployable: private RAG assistants, Urdu language adaptation, local GPU environments, edge inference and security evaluation for agentic LLM systems.</p>
+          <div class="chips"><span>LLMs</span><span>Agentic AI</span><span>RAG</span><span>Urdu NLP</span><span>Computer Vision</span><span>Edge AI</span><span>AI Safety</span><span>Multimodal AI</span></div>
+          <div class="about-links"><a href="mailto:ameenakhan7299@gmail.com">Email me ↗</a><a href="https://github.com/AmeenaKhan12" target="_blank" rel="noopener">GitHub profile ↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-index">02</div>
+      <div class="kicker">CAREER PATH</div>
+      <h2>Experience & <span>education.</span></h2>
+      <div class="timeline">
+        <article class="timeline-item reveal-on-scroll">
+          <div class="time-block"><time>May 2024 — Present</time><span>Current</span></div>
+          <div><h3>Assistant Manager Technical / AI Developer</h3><p class="muted">Artificial Intelligence Technology Center (AITeC), National Center for Physics · Islamabad</p><p>Developing secure LLM/RAG systems, OCR pipelines, Urdu LLM adaptation and local/edge AI deployments. Work spans application architecture, retrieval, databases, evaluation, model optimization and training.</p></div>
+        </article>
+        <article class="timeline-item reveal-on-scroll">
+          <div class="time-block"><time>2021 — 2023</time></div>
+          <div><h3>MS Computer Science</h3><p class="muted">PIEAS University · CGPA 3.59/4</p></div>
+        </article>
+        <article class="timeline-item reveal-on-scroll">
+          <div class="time-block"><time>2019 — 2021</time><span>Award</span></div>
+          <div><h3>MSc Computer Science · Gold Medalist</h3><p class="muted">University of the Punjab (PUCIT) · CGPA 3.80/4 · 1st position</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-index">03</div>
+      <div class="kicker">SELECTED WORK</div>
+      <div class="section-head">
+        <h2>Projects that connect <span>models, systems & security.</span></h2>
+        <div class="filters" role="group" aria-label="Project filters">
+          <button class="active" data-filter="all">All</button><button data-filter="rag">RAG</button><button data-filter="llm">LLM</button><button data-filter="edge">Edge</button><button data-filter="safety">Safety</button>
+        </div>
+      </div>
+
+      <div class="project-showcase" id="projectGrid">
+        <article class="project-card featured" data-cat="rag" data-project="cibot" data-tilt tabindex="0">
+          <div class="card-visual"><img src="assets/cibot.jpg" alt="CI-BOT architecture visual" /><div class="visual-overlay"><span>01 / FLAGSHIP</span><b>Private AI · RAG · OCR</b></div></div>
+          <div class="card-content"><div><div class="project-type">CONVERSATIONAL AI SYSTEM</div><h3>CI-BOT — Cyber Intelligent Bot</h3><p>Private multimodal conversational AI with local/external LLMs, RAG, OCR, scanned-document QA, speech and isolated user spaces.</p></div><div class="card-bottom"><div class="tags"><span>Python</span><span>Streamlit</span><span>Qdrant</span><span>PostgreSQL</span><span>Ollama</span></div><button class="more">Open case study <span>↗</span></button></div></div>
+        </article>
+
+        <article class="project-card" data-cat="llm" data-project="urdu" data-tilt tabindex="0">
+          <div class="card-visual"><img src="assets/lora.jpg" alt="LoRA fine-tuning visual" /><div class="visual-overlay"><span>02 / LANGUAGE AI</span><b>Fine-Tuning</b></div></div>
+          <div class="card-content"><div><div class="project-type">URDU LLM ADAPTATION</div><h3>Urdu LLM Fine-Tuning</h3><p>Bactrian-X experiments evolved into an optimized Unsloth + LoRA pipeline for Qwen2.5-7B.</p></div><div class="card-bottom"><div class="tags"><span>Unsloth</span><span>LoRA</span><span>Qwen</span><span>TRL</span></div><button class="more">Open case study <span>↗</span></button></div></div>
+        </article>
+
+        <article class="project-card" data-cat="safety" data-project="rail" data-tilt tabindex="0">
+          <div class="card-visual"><img src="assets/railsleuth.jpg" alt="RailSleuth framework" /><div class="visual-overlay"><span>03 / AI SAFETY</span><b>Agentic Guardrails</b></div></div>
+          <div class="card-content"><div><div class="project-type">LLM SECURITY EVALUATION</div><h3>RailSleuth</h3><p>Evaluation framework for jailbreaks, prompt injection, RAG attacks and tool misuse across layered defenses.</p></div><div class="card-bottom"><div class="tags"><span>Guardrails</span><span>RAG Attacks</span><span>Tools</span></div><button class="more">Open case study <span>↗</span></button></div></div>
+        </article>
+
+        <article class="project-card" data-cat="edge" data-project="edge" data-tilt tabindex="0">
+          <div class="card-visual synthetic"><div class="edge-orbit"><span>JETSON</span><i></i><i></i><i></i></div><div class="visual-overlay"><span>04 / EDGE AI</span><b>Offline Deployment</b></div></div>
+          <div class="card-content"><div><div class="project-type">RESOURCE-CONSTRAINED AI</div><h3>Conversational LLM on NVIDIA Jetson</h3><p>Useful offline conversational AI under RAM, latency, throughput, thermal and power constraints.</p></div><div class="card-bottom"><div class="tags"><span>Jetson Xavier</span><span>Orin Nano</span><span>STT/TTS</span></div><button class="more">Open case study <span>↗</span></button></div></div>
+        </article>
+
+        <article class="project-card" data-cat="rag" data-project="ocr" data-tilt tabindex="0">
+          <div class="card-visual synthetic ocr-grid"><div class="ocr-doc"><span>OCR</span><b>DOCUMENT<br/>INTELLIGENCE</b><i></i><i></i><i></i></div><div class="visual-overlay"><span>05 / DOCUMENT AI</span><b>OCR Benchmark</b></div></div>
+          <div class="card-content"><div><div class="project-type">DOCUMENT UNDERSTANDING</div><h3>OCR Benchmark & HR-BOT</h3><p>OCR comparison on noisy/scanned documents and a single-user RAG prototype for document Q&A.</p></div><div class="card-bottom"><div class="tags"><span>DocTR</span><span>PaddleOCR</span><span>TrOCR</span><span>SQLite</span></div><button class="more">Open case study <span>↗</span></button></div></div>
+        </article>
+
+        <article class="project-card" data-cat="llm edge" data-project="docker" data-tilt tabindex="0">
+          <div class="card-visual"><img src="assets/docker.png" alt="Docker model runner" /><div class="visual-overlay"><span>06 / INFRASTRUCTURE</span><b>Local LLM Runtime</b></div></div>
+          <div class="card-content"><div><div class="project-type">GPU INFRASTRUCTURE</div><h3>Local LLM Docker Environments</h3><p>NVIDIA-enabled Docker environments to run and expose large local models for reproducible GPU testing.</p></div><div class="card-bottom"><div class="tags"><span>Docker</span><span>NVIDIA Toolkit</span><span>Ollama</span></div><button class="more">Open case study <span>↗</span></button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-index">04</div>
+      <div class="kicker">RESEARCH & LEADERSHIP</div>
+      <div class="research-layout">
+        <article class="paper feature-panel reveal-on-scroll" data-tilt>
+          <div class="paper-meta"><span>PUBLICATION · 22 JUL 2026</span><b>94% accuracy</b></div>
+          <h2>Deepfake News Detection</h2>
+          <h3>A Multimodal Framework Integrating LipNet, DeepSpeech and ResNET for Enhanced Audio-Visual Analysis</h3>
+          <p>A multimodal framework combining lip movement, speech and facial features. Evaluated on FakeAVCeleb and reported 94% accuracy, outperforming the compared multimodal ensemble baseline.</p>
+          <div class="paper-stack"><span>LipNet</span><span>DeepSpeech2</span><span>BlazeFace</span><span>ResNet18</span></div>
+        </article>
+        <div class="leadership-stack">
+          <article class="mini-panel reveal-on-scroll"><span>TEACHING</span><h3>Instructor — Advanced ML/DL, Generative AI & Prompt Engineering</h3><p>AITeC/NCP · 2025</p></article>
+          <article class="mini-panel reveal-on-scroll"><span>NAIS 2024–2026</span><h3>National Artificial Intelligence Seminar</h3><p>Registration organizer (2024–25) · Stage Secretary (2026)</p></article>
+          <article class="mini-panel reveal-on-scroll"><span>AIIC</span><h3>AI Innovative Ideas Competition</h3><p>Organizer and registration committee contributor.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-index">05</div>
+      <div class="kicker">TOOLKIT</div>
+      <div class="split skill-split">
+        <div><h2>Technical stack built around <span>applied AI.</span></h2><p class="lead">Hover the map to explore the areas I work across.</p></div>
+        <div class="skill-map" id="skillMap">
+          <button class="skill-node active" data-skill="AI & Research" data-desc="NLP · LLMs · Machine Learning · Deep Learning · Computer Vision · RAG · PEFT · LoRA · AI Safety">AI & Research</button>
+          <button class="skill-node" data-skill="Languages & Apps" data-desc="Python · Ruby on Rails · ReactJS · VueJS · TypeScript · Streamlit">Languages & Apps</button>
+          <button class="skill-node" data-skill="Data & Retrieval" data-desc="PostgreSQL · MySQL · Qdrant · Vector Databases · Embeddings · Semantic Retrieval">Data & Retrieval</button>
+          <button class="skill-node" data-skill="Frameworks & Infra" data-desc="PyTorch · Hugging Face · LangChain · Ollama · Docker · ROS 2 · NVIDIA Jetson · CUDA workflows">Frameworks & Infra</button>
+          <div class="skill-display"><small>SELECTED STACK</small><h3 id="skillTitle">AI & Research</h3><p id="skillDesc">NLP · LLMs · Machine Learning · Deep Learning · Computer Vision · RAG · PEFT · LoRA · AI Safety</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-glow"></div>
+      <div class="contact-inner">
+        <div><div class="kicker">LET'S CONNECT</div><h2>Build something <span>intelligent, useful & secure.</span></h2><p>Open to AI engineering opportunities, applied research and collaborations around LLMs, RAG, multilingual AI and agentic systems.</p></div>
+        <div class="contact-actions"><a class="contact-card magnetic" href="mailto:ameenakhan7299@gmail.com"><small>EMAIL</small><strong>ameenakhan7299@gmail.com</strong><span>↗</span></a><a class="contact-card magnetic" href="https://github.com/AmeenaKhan12" target="_blank" rel="noopener"><small>GITHUB</small><strong>@AmeenaKhan12</strong><span>↗</span></a><a class="contact-card magnetic" href="https://www.linkedin.com/in/ameena-khan-1736171a4" target="_blank" rel="noopener"><small>LINKEDIN</small><strong>Ameena Khan</strong><span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Ameena Khan</span><span>Designed for AI engineering & research</span><a href="#home">Back to top ↑</a></footer>
+
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box"><button class="close" aria-label="Close case study">×</button><div id="modalContent"></div></div>
+  </div>
+
+  <div class="command" id="command" aria-hidden="true">
+    <div class="command-box">
+      <div class="command-head"><span>Quick navigation</span><kbd>ESC</kbd></div>
+      <button data-go="#projects"><b>01</b><span>View projects</span><kbd>P</kbd></button>
+      <button data-go="#research"><b>02</b><span>Research & publication</span><kbd>R</kbd></button>
+      <button data-go="#skills"><b>03</b><span>Technical stack</span><kbd>S</kbd></button>
+      <button data-url="https://github.com/AmeenaKhan12"><b>04</b><span>Open GitHub profile</span><kbd>G</kbd></button>
+      <button data-url="Ameena_Khan_CV.pdf"><b>05</b><span>Open résumé</span><kbd>C</kbd></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
